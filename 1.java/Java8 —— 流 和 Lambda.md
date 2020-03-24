@@ -16,7 +16,7 @@
 
 **Lambda**表达式由 **参数列表** 、**箭头** 和 **主体** 组成：
 
-![微信截图_20200204105243.png](https://upload-images.jianshu.io/upload_images/6974508-2871cac6251a11de?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![微信截图_20200204105243.png](https://github.com/daqi17/AndroidBlog/blob/master/img/java/lambda.png?raw=true)
 
 ## 四、函数式接口
 
