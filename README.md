@@ -1,6 +1,21 @@
 ## Android
 
+### Jetpack
+
+* Lifecycles
+* LivaData
+* ViewModel
+* Room
+* Paging
+* WorkManager
+* Navigation
+* DataBinding
+
 ### Handler
+
+* Handler源码学习
+* HandlerThread 与 IntentService源码学习
+* LocalBroadcastManager源码学习
 
 ### Ble（低功耗蓝牙）
 
@@ -13,9 +28,14 @@
 
 ## Java
 
+* volatile
+
 ### Java 8
 
 * [流 和 Lambda](https://github.com/daqi17/AndroidBlog/blob/master/1.java/Java8%20%E2%80%94%E2%80%94%20%E6%B5%81%20%E5%92%8C%20Lambda.md)
 * [Optional](https://github.com/daqi17/AndroidBlog/blob/master/1.java/Java8%20%E2%80%94%E2%80%94%20%E6%B5%81%20%E5%92%8C%20Lambda.md)
 * [日期和时间API](https://github.com/daqi17/AndroidBlog/blob/master/1.java/Java8%20%E2%80%94%E2%80%94%20%E6%97%B6%E9%97%B4API.md)
 
+
+
+## Kotlin
