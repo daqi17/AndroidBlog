@@ -1,6 +1,6 @@
 ## OSI 7层模型
 
-![](C:\Users\deling\Desktop\OSI七层\OSI七层1.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/OSI/OSI%E4%B8%83%E5%B1%821.png)
 
 ### 应用层
 
@@ -54,7 +54,7 @@
 
 ## 网络构成要素
 
-![](C:\Users\deling\Desktop\OSI七层\网络构成要素.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/OSI/%E7%BD%91%E7%BB%9C%E6%9E%84%E6%88%90%E8%A6%81%E7%B4%A0.png)
 
 |        设备        |               作用               |
 | :----------------: | :------------------------------: |
