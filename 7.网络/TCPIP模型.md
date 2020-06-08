@@ -1,6 +1,6 @@
 ## TCP/IP模型
 
-![](C:\Users\deling\Desktop\TCPIP模型\TCPIP模型.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/TCPIP/TCPIP%E6%A8%A1%E5%9E%8B.png)
 
 ### 硬件（物理层）
 
@@ -74,7 +74,7 @@ TCP/IP应用的框架绝大多数属于客户端/服务端模型。提供服务�
 
 ### 数据包首部
 
-![](C:\Users\deling\Desktop\TCPIP模型\微信截图_20200608120217.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/TCPIP/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200608120217.png)
 
 ​		每个分层中，都会对所发送的数据附加一个首部，在这个首部中包含了该层必要的信息。
 
@@ -82,14 +82,18 @@ TCP/IP应用的框架绝大多数属于客户端/服务端模型。提供服务�
 
 ### 发送数据包
 
-![](C:\Users\deling\Desktop\TCPIP模型\发送数据包.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/TCPIP/%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE%E5%8C%85.png)
 
 ### 经过数据链路的包
 
-![](C:\Users\deling\Desktop\TCPIP模型\帧结构.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/TCPIP/%E5%B8%A7%E7%BB%93%E6%9E%84.png)
 
 ​		分组数据包流动时，从前往后依次被附加了以太网包首部、IP首部、TCP包首部(或UDP包首部)以及应用自己的包首部和数据。		
 
 经过每个协议分层时，都必须有识别分组数据包发送端和接收端的信息。以太网会用MAC地址，IP会用IP地址，而TCP/UDP则会用端口号作为识别两端主机的地址。
 
 ​		此外，每一个分层的包首部中还包含一个识别位，用来标识上一层协议的种类信息。
+
+## 参考资料
+
+《图解TCP/IP》
