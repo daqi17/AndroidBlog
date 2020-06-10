@@ -22,7 +22,7 @@
 
 ### ARP报文格式
 
-![](C:\Users\deling\Desktop\网络层\ARP报文.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/ARP报文.png)
 
 ### ARP命令
 
@@ -52,7 +52,7 @@ ICMP报文包括IP头部、ICMP头部和ICMP报文。
 
 **IP头部的Protocol值为1就说明这是一个ICMP报文**，此外还有一个代码（Code）域用于详细说明某种ICMP报文的类型，所有数据都在ICMP头部后面。
 
-![](C:\Users\deling\Desktop\网络层\ICMP报文.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/ICMP报文.png)
 
 ### ICMP类型
 

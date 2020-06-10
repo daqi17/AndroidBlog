@@ -90,7 +90,7 @@
 * 在不同网络之间的广播叫做直接广播。
   * 例如192.168.0.0/24的主机向192.168.1.255/24的目标地址发送IP包。收到这个包的路由器会将数据转发给192.168.1.0/24,从而使得所有192.168.1.1~192.168.1.254的主机都能收到这个包。
 
-![](C:\Users\deling\Desktop\网络层\本地广播与直接广播.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/本地广播与直接广播.png)
 
 ### IP多播
 
@@ -98,7 +98,7 @@
 
 背景：向多台主机同时发送数据包，往往采用复制1对1通信的数据，将其同时发送给多个主机的方式。（广播无法穿透路由）
 
-![](C:\Users\deling\Desktop\网络层\多播.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/多播.png)
 
 ​		多播使用D类地址，首位前4位位“1110”，剩下的28位可以成为多播的组编号。
 
@@ -156,7 +156,7 @@ NAT技术将私有IP与全局IP互换，使配有私有地址的主机与配有�
 
 ​		路由表越大，管理它所需要的内存和CPU也越多。并且查找路由表的时间也越长，导致转发IP数据包的性能下降。如果想要构建大规模、高性能网络，则需要尽可能削减路由表的大小。
 
-![](C:\Users\deling\Desktop\网络层\路由器聚合.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/路由器聚合.png)
 
 ## IP分割处理与再构成处理
 
@@ -164,7 +164,7 @@ NAT技术将私有IP与全局IP互换，使配有私有地址的主机与配有�
 
 每种数据链路的最大传输单元（MTU）都不尽相同。
 
-![](C:\Users\deling\Desktop\网络层\MTU.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/MTU.png)
 
 ### IP报文的分片与重组
 
@@ -178,7 +178,7 @@ NAT技术将私有IP与全局IP互换，使配有私有地址的主机与配有�
 2. 拆分后的每一个分片也有可能会在途中丢失。
 3. 即便在途中某一处被重新组装，但如果下一站再经过其他路由时面临被分片的可能。（给路由器带来多余的负担，降低网络传送效率）
 
-![](C:\Users\deling\Desktop\网络层\分片.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/分片.png)
 
 **Ip首部中的“片偏移”字段表示分片之后每个分片在用户数据中的对应位置和该分片之后是否还有后续其他分片。根据这个字段可以判断一个IP数据报是否分片以及当前分片为整个数据报的起始、中段还有末尾。**
 
@@ -206,7 +206,7 @@ NAT技术将私有IP与全局IP互换，使配有私有地址的主机与配有�
 
 ​		在TCP的情况下，根据路径MTU的大小计算出最大段长度（MSS），然后再根据这些信息进行数据报的发送。
 
-![](C:\Users\deling\Desktop\网络层\路径MTU.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/路径MTU.png)
 
 ​		出于网络安全的考虑，有些域会限制ICMP消息的接收。这时路径MTU发现的功能无法正常运行，会造成最终用户不明，导致连接不稳定。
 
@@ -228,7 +228,7 @@ IP分片过程中，只有第一个分片包含TCP首部，其余只包含IP首�
 
 IP首部中包含着用于IP协议进行发包控制时所有的必要信息。了解IP首部，也就能够对IP所提供的功能有一个详细的把握。
 
-![](C:\Users\deling\Desktop\网络层\IPv4首部.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/IPv4首部.png)
 
 * 版本号
 
@@ -327,7 +327,7 @@ IP首部中包含着用于IP协议进行发包控制时所有的必要信息。�
 
 ## IPv6头部
 
-![](C:\Users\deling\Desktop\网络层\IPv6.png)
+![](https://github.com/daqi17/AndroidBlog/blob/master/img/%E7%BD%91%E7%BB%9C/IP/IPv6.png)
 
 IPv6为了减轻路由器的负担，省略了首部校验和字段。因此路由器不需要计算校验和，从而也提高了包的转发效率。（因为TCP和UDP在做校验和计算的时候使用伪首部，所以可以验证IP地址或协议是否正。因此，即便IP层无法提供可靠传输，在TCP或UDP层也可以提供可靠传输的服务。）
 
