@@ -88,3 +88,7 @@ DHCP在分片IP地址有两种方法（两者可同时使用）：
 * 针对MAC地址分配一个固定的IP地址。
 
 在发送DHCP发现包与DHCP请求包时，DHCP即插即用的IP地址尚未确定。因此，DHCP发现包的目标地址为广播地址255.255.255.255，而源地址为0.0.0.0，表示未知。
+
+## 参考资料
+
+[《图解TCP/IP》](https://github.com/daqi17/AndroidBlog/blob/master/%E7%94%B5%E5%AD%90%E4%B9%A6/%E3%80%8A%E5%9B%BE%E8%A7%A3TCP%20IP(%E7%AC%AC5%E7%89%88).pdf)

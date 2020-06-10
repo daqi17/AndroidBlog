@@ -349,3 +349,7 @@ IPv6为了减轻路由器的负担，省略了首部校验和字段。因此路�
   * 128比特（8个16位字节），表示接收端IP地址。
 * 扩展首部
   * 当需要对IPv6的数据进行分片是，可以设置为扩展域为44.
+
+## 参考资料
+
+[《图解TCP/IP》](https://github.com/daqi17/AndroidBlog/blob/master/%E7%94%B5%E5%AD%90%E4%B9%A6/%E3%80%8A%E5%9B%BE%E8%A7%A3TCP%20IP(%E7%AC%AC5%E7%89%88).pdf)
