@@ -1,3 +1,5 @@
+[TOC]
+
 ## `Optional`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Optional<T>`类是一个容器类，代表一个值存在不存在。`Optional<T>`用于避免和 `null` 检查相关的 `bug`。
