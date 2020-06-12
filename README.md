@@ -35,7 +35,33 @@
 * [日期和时间API](https://github.com/daqi17/AndroidBlog/blob/master/1.java/Java8%20%E2%80%94%E2%80%94%20%E6%97%B6%E9%97%B4API.md)
 
 ## Kotlin
+* [Kotlin知识归纳（一） —— 基础语法](https://juejin.im/post/5cebe1526fb9a07f050a479d)
 
+* [Kotlin知识归纳（二） —— 让函数更好调用](https://juejin.im/post/5cebfc96e51d45776031af76)
+
+* [Kotlin知识归纳（三） —— 顶层成员与扩展](https://juejin.im/post/5cebff51e51d45777540fd37)
+
+* [Kotlin知识归纳（四） —— 接口和类](https://juejin.im/post/5cecbb79f265da1bb564d860)
+
+* [Kotlin知识归纳（五） —— Lambda](https://juejin.im/post/5cecbbd96fb9a07eea32532e)
+
+* [Kotlin知识归纳（六） —— 类型系统](https://juejin.im/post/5cefa6d7f265da1bac3ffba4)
+
+* [Kotlin知识归纳（七） —— 集合](https://juejin.im/post/5d1045bc5188255a4f75be69)
+
+* [Kotlin知识归纳（八） —— 序列](https://juejin.im/post/5d1338336fb9a07ec9561e1d)
+
+* [Kotlin知识归纳（九） —— 约定](https://juejin.im/post/5d17875e518825351d566957)
+
+* [Kotlin知识归纳（十） —— 委托](https://juejin.im/post/5d1787f65188251dd00f8515)
+
+* [Kotlin知识归纳（十一） —— 高阶函数](https://juejin.im/post/5d1787b25188255c154c0d10)
+
+* [Kotlin知识归纳（十二） —— 泛型](https://juejin.im/post/5d178814518825614c3ad938)
+
+* [Kotlin知识归纳（十三） —— 注解](https://juejin.im/post/5d246ba55188257c3d2ce4bd)
+
+* [Kotlin知识归纳（十四） —— 反射](https://juejin.im/post/5d2e8c75e51d454fbe24a73f)
 
 
 ## 网络
