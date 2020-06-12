@@ -1,5 +1,3 @@
-[TOC]
-
 
 
 ## Lifecycle组件
